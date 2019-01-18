@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  font-family: 'Roboto';
+}
+
+.name {
+  font-family: 'Roboto';font-size: 35px;
+  left: 0;
+  margin-top: -200px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 25%;
+}
+.name_Description {
+  font-family: 'Roboto';font-size: 25px;
+  left: 0;
+  margin-top: -140px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.button {
+  font-family: 'Roboto';
+  background-color: #A9A9A9; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button{border-radius: 12px;}
+ion-icon {
+      font-size: 16px; //Preferred size here
+      position: relative;
+      vertical-align:-10%;
+  }
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+}
