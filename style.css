@@ -1,8 +1,30 @@
+ion-icon {
+      font-size: 16px; //Preferred size here
+      position: relative;
+      vertical-align:-10%;
+  }
+div.headerBar {
+    height: 5px;
+    background: #f9b868;
+    position: relative;
+    top: -1px;
+}
 body {
+  margin: 0 !important;
+ padding: 0 !important;
   background-color: white;
   font-family: 'Roboto';
 }
-
+div.disclousre {
+  text-align: center!important;
+  position: absolute;
+  bottom: -100%;
+  right: 25%;
+  font-family: 'Roboto';font-size: 12px;
+}
+img.personalIMG {
+  border-radius: 50%;
+}
 .name {
   font-family: 'Roboto';font-size: 35px;
   left: 0;
@@ -21,6 +43,12 @@ body {
   top: 50%;
   width: 100%;
 }
+.midDesign {
+  position: fixed;
+  top: 25%;
+  left: 43%;
+
+}
 .button {
   font-family: 'Roboto';
   background-color: #A9A9A9; /* Green */
@@ -32,15 +60,5 @@ body {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-}
-.button{border-radius: 12px;}
-ion-icon {
-      font-size: 16px; //Preferred size here
-      position: relative;
-      vertical-align:-10%;
-  }
-.buttons {
-  position: absolute;
-  top: 50%;
-  left: 43%;
+  border-radius: 12px;
 }
