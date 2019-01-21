@@ -16,6 +16,7 @@ div.inboxText
 {
   font-family: 'Open Sans';font-size: 1.25rem;
   margin: auto;
+  width: 67%;
 }
 div.headerBar {
     height: 5px;
