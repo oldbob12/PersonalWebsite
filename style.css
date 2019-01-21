@@ -3,6 +3,20 @@ ion-icon {
       position: relative;
       vertical-align:-10%;
   }
+
+  div.justify-content {
+     text-align:center;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     width: 67%;
+     transform: translate(-50%, -50%);
+}
+div.inboxText
+{
+  font-family: 'Open Sans';font-size: 1.25rem;
+  margin: auto;
+}
 div.headerBar {
     height: 5px;
     background: #f9b868;
@@ -15,39 +29,14 @@ body {
   background-color: white;
   font-family: 'Roboto';
 }
-div.disclousre {
-  text-align: center!important;
-  position: absolute;
-  bottom: -100%;
-  right: 25%;
-  font-family: 'Roboto';font-size: 12px;
-}
 img.personalIMG {
   border-radius: 50%;
 }
 .name {
   font-family: 'Roboto';font-size: 35px;
-  left: 0;
-  margin-top: -200px;
-  position: absolute;
-  text-align: center;
-  top: 30%;
-  width: 25%;
 }
 .name_Description {
   font-family: 'Roboto';font-size: 25px;
-  left: 0;
-  margin-top: -140px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.midDesign {
-  position: fixed;
-  top: 25%;
-  left: 43%;
-
 }
 .button {
   font-family: 'Roboto';
