@@ -6,11 +6,10 @@ ion-icon {
 
   div.justify-content {
      text-align:center;
-     position: absolute;
-     top: 50%;
+     position: relative;
      left: 50%;
      width: 67%;
-     transform: translate(-50%, -50%);
+     transform: translate(-50%,10%);
 }
 div.inboxText
 {
