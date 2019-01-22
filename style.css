@@ -6,7 +6,7 @@ ion-icon {
 
   div.justify-content {
      text-align:center;
-     position: fixed;
+     position: absolute;
      top: 50%;
      left: 50%;
      width: 67%;
@@ -14,7 +14,7 @@ ion-icon {
 }
 div.inboxText
 {
-  font-family: 'Open Sans';font-size: 1.25rem;
+  font-family: 'Open Sans';font-size: 1.24rem;
   margin: auto;
   width: 67%;
 }
@@ -32,12 +32,14 @@ body {
 }
 img.personalIMG {
   border-radius: 50%;
+  max-width: 75%;
+  height: auto;
 }
 .name {
-  font-family: 'Roboto';font-size: 35px;
+  font-family: 'Roboto';font-size: 1.25rem;
 }
 .name_Description {
-  font-family: 'Roboto';font-size: 25px;
+  font-family: 'Roboto';font-size: 1.25rem;
 }
 .button {
   font-family: 'Roboto';
